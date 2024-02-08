@@ -1,0 +1,13 @@
+package com.edubridge.interfacedemo;
+@FunctionalInterface
+//interface
+/*A functional interface contains exactly one abstract method*/
+public interface Company {
+	String Yoe="12TH MAY 1998";
+	String headquarter="Mumbai";
+	
+	void displayDetails();
+	//void displayCompany();
+	
+
+}

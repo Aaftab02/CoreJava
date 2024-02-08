@@ -10,7 +10,6 @@ public class IncrementAndDecrementOperatorDemo {
 		int res2= --a + b--; //10
 		System.out.println(a); //6
 		System.out.println(b); //3
-
 	}
 
 }
