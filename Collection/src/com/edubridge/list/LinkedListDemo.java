@@ -1,4 +1,5 @@
 package com.edubridge.list;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -29,6 +30,16 @@ public class LinkedListDemo {
 		{
 			System.out.print(itr.next()+" ");
 		}
+		System.out.println();
+		/*sort method will sort according to ascending order wise and
+		 * reverse method will arrange the elements according to insertion 
+		 * order wise in the reverse order */
+		Collections.reverse(obj);
+		for(Integer itr1:obj)
+		{
+			System.out.print(itr1+" ");
+		}
+		//Collections.sort(obj);
 
 	}
 
