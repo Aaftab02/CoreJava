@@ -1,6 +1,6 @@
 package com.edubridge.assignmentproblems;
 import java.util.Scanner;
-//Check the 
+//Check the consonants and vowels and count them
 public class CountingVowelsAndConsonants {
 
 	public static void main(String[] args) {
