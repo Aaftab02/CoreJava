@@ -36,7 +36,6 @@ public class Student {
 	//default constructor
 	public Student() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	//parameterized constructor

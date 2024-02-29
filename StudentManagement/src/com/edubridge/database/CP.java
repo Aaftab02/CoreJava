@@ -9,7 +9,7 @@ public class CP {
 	public static Connection createc() 
 	{
 		try {
-			Class.forName("com.mysql.cj.jdbc.driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url="jdbc:mysql://localhost:3306/miniproject";
 			String username ="root";
 			String password ="root";
