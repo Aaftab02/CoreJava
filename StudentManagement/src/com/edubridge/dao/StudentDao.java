@@ -40,7 +40,7 @@ public class StudentDao {
 			
 			if(val==1) {
 				//update name
-				String query = "update student set sname=?where sid sid=?";
+				String query = "update student set sname=?where sid=?";
 				PreparedStatement ps = conn.prepareStatement(query);
 				ps.setString(1, toUpdate);
 				ps.setInt(2, id);
@@ -49,7 +49,7 @@ public class StudentDao {
 			}
 			else if (val==2) {
 				//update phone no
-				String query = "update student set sphone=?where sid sid=?";
+				String query = "update student set sphone=?where sid=?";
 				PreparedStatement ps = conn.prepareStatement(query);
 				ps.setString(1, toUpdate);
 				ps.setInt(2, id);
@@ -59,7 +59,7 @@ public class StudentDao {
 			}
 			else if (val==3) {
 				//update city
-				String query = "update student set scity=?where sid sid=?";
+				String query = "update student set scity=?where sid=?";
 				PreparedStatement ps = conn.prepareStatement(query);
 				ps.setString(1, toUpdate);
 				ps.setInt(2, id);
@@ -107,7 +107,7 @@ public class StudentDao {
 				String name=rs.getString(2);
 				String phoneNo=rs.getString(3);
 				String city=rs.getString(4);
-				System.out.println("Student Id:"+id+"\nStudent Name:"+name+"\nStudent Phone Number:"+phoneNo+"\nStudent City"+city);
+				System.out.println("Student Id:"+id+"\nStudent Name:"+name+"\nStudent Phone Number:"+phoneNo+"\nStudent City:"+city);
 			} 
 			
 		} catch (Exception e) {
